@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
+    <title>My BCIT Project 2024</title>
     <meta name="comp1800 template" content="My 1800 App">
 
     <!------------------------>
@@ -20,8 +20,6 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
 
-
-
     <!-------------------------------------------------------->
     <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
     <!-------------------------------------------------------->
@@ -36,8 +34,8 @@
     <!-------------------------------------------->
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 
@@ -50,47 +48,15 @@
     <nav id="navbarPlaceholder"></nav>
 
     <!-- the body of your page goes here -->
-    
-
-    <!-- stuff -->
-    <div class="container-fluid bg-light text-dark p-5">
-        <div class="container bg-light p-5">
-            <h1 class="display-4">Good morning, <span id="name-goes-here"></span></h1>
-            <hr>
-            <p>Quote of the day: <span id="quote-goes-here"></span></p>
-        </div>
-</div>
-<div class="container"> 
-    <h1>Some popular hikes</h1>
-    <!-- Here is the container for cards  -->
     <div class="container">
-        <div id="hikes-go-here" class="row row-cols-auto">
-        </div>
-    </div>
-</div>
-<!-- Templates for general use, not displayed -->
-<template id="hikeCardTemplate">
-    <div class="card py-2 mx-2" style="width: 18rem">
-        <img class="card-image card-img-top" src=" ..." alt="..." />
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-length">placeholder</p>
-            <br />
-            <p class="card-text">
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-            </p>
-            <a class="btn btn-primary card-href">Read more ...</a>
-        </div>
-    </div>
-</template>
-
-
+        <h1><span id="hikeName"> this hike</span></h1>
+        <img class="hike-img responsive" src=""/>
+        <div id="details-go-here"></div>
+  </div>
+    <!-- stuff -->
 
     <!-- our own footer goes here-->
     <nav id="footerPlaceholder"></nav>
-
-    
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
